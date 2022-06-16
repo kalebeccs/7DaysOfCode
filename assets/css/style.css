@@ -1,0 +1,23 @@
+@import url('./navbar.css');
+@import url('./cabecalho.css');
+@import url('./metricas.css');
+@import url('./vagas.css');
+
+:root {
+    --cinza-logo: #3A404E;
+    --vermelho: #8E2424;
+    --vermelho-opaco: #8e24241b;
+    --branco: #FFFFFF;
+    --titulo: #101828;
+    --texto: #667085;
+    --texto-copy: #98A2B3;
+}
+
+body {
+    background-color: var(--branco);
+    color: var(--texto);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+}

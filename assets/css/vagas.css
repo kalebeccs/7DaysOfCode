@@ -1,0 +1,32 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.vagas__titulo {
+    color: var(--vermelho);
+    background-color: var(--vermelho-opaco);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 0.85rem;
+    padding: 0.25rem .75rem;
+    border-radius: 1rem;
+}
+
+.vagas__subtitulo {
+    color: var(--titulo);
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.75rem;
+}
+
+.vagas__texto {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+}
+
+.vagas__img {
+    margin-top: 2rem;
+}

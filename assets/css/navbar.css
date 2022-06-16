@@ -1,0 +1,65 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.125rem 2rem;
+    margin: 0 4rem;
+}
+
+.navbar__logotipo {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.navbar__titulo {
+    color: var(--cinza-logo);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar__lista {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.navbar-lista__link {
+    color: var(--texto);
+    text-decoration: none;
+}
+
+.navbar-lista__link:hover {
+    text-decoration: underline;
+}
+
+.navbar__login {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.navbar__entrar {
+    color: var(--texto);
+    text-decoration: none;
+    padding: .625rem 1.125rem;
+}
+
+.navbar__entrar:hover {
+    text-decoration: underline;
+}
+
+.navbar__cadastrar {
+    color: var(--branco);
+    font-weight: 500;
+    background-color: var(--vermelho);
+    border: 1px solid var(--vermelho);
+    border-radius: .5rem;
+    text-decoration: none;
+    padding: .625rem 1.125rem;
+}
+
+.navbar__cadastrar:hover {
+    color: var(--vermelho);
+    background-color: transparent;
+    transition-duration: .5s;
+}
