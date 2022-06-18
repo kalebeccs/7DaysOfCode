@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    margin: 0 4rem 4.5rem 4rem;
 }
 
 .vagas__titulo {
@@ -28,5 +29,5 @@
 }
 
 .vagas__img {
-    margin-top: 2rem;
+    margin: 2rem 0;
 }

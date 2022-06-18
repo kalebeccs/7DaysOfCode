@@ -1,0 +1,45 @@
+.vagas__design,
+.vagas__desenvolvimento {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 80%;
+}
+
+.design__titulo,
+.desenvolvimento__titulo {
+    color: var(--titulo);
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--borda);
+    border-radius: 1rem;
+    padding: 24px 24px 28px;
+    margin-bottom: 1.5rem;
+}
+
+.card__titulo {
+    color: var(--titulo);
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.card__info {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.card__duracao,
+.card__salario {
+    font-weight: 500;
+}

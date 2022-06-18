@@ -1,0 +1,45 @@
+.depoimento {
+    background-color: var(--vermelho-opaco);
+    border-radius: 1rem;
+    margin: 0 4rem 6rem 4rem;
+    padding: 4rem;
+}
+
+.depoimento__titulo {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.depoimento__texto {
+    color: var(--titulo);
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil__img {
+    margin-bottom: 1rem;
+}
+
+.perfil__nome {
+    color: var(--titulo);
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.perfil__cargo {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
