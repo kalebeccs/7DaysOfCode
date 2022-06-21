@@ -1,12 +1,15 @@
 .metricas {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 2rem;
     margin: 0 4rem 6rem 4rem;
 }
 
 .metrica__item {
-    width: 25%;
+    width: 20%;
 }
 
 .metrica__titulo {

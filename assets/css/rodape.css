@@ -1,0 +1,77 @@
+.rodape {
+    background-color: var(--fundo);
+    padding: 6rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape__titulo {
+    color: var(--titulo);
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.rodape__texto {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin-bottom: 2.5rem;
+}
+
+.rodape__formulario {
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.formulario__input {
+    border: 1px solid var(--borda-input);
+    border-radius: .5rem;
+    padding: .75rem 1rem;
+    min-width: 20rem;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.formulario__input::placeholder {
+    font-family: 'Inter', sans-serif;
+    color: var(--texto);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.formulario__input:hover {
+    border: 1px solid var(--vermelho);
+    box-shadow: 0px 1px 5px var(--vermelho);
+}
+
+.formulario__input:focus {
+    outline: var(--vermelho) 1px solid;
+    border: 1px solid var(--vermelho);
+}
+
+.formulario__cadastrar {
+    color: var(--branco);
+    font-weight: 500;
+    background-color: var(--vermelho);
+    border: 1px solid var(--vermelho);
+    border-radius: .5rem;
+    text-decoration: none;
+    padding: .625rem 1.125rem;
+}
+
+.formulario__cadastrar:hover {
+    cursor: pointer;
+    color: var(--vermelho);
+    background-color: transparent;
+    transition-duration: .5s;
+}
+
+.rodape__copy {
+    color: var(--texto-copy);
+}

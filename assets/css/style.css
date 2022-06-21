@@ -4,6 +4,7 @@
 @import url('./vagas.css');
 @import url('./vagas-abertas.css');
 @import url('./depoimento.css');
+@import url('./rodape.css');
 
 :root {
     --cinza-logo: #3A404E;
@@ -14,7 +15,8 @@
     --texto: #667085;
     --texto-copy: #98A2B3;
     --borda: #EAECF0;
-
+    --fundo: #F9FAFB;
+    --borda-input: #D0D5DD;
 }
 
 body {
