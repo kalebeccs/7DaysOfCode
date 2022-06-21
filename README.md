@@ -1,7 +1,5 @@
 # 7DaysOfCode | HTML e CSS
 
-🚧Em desenvolvimento🚧
-
 Pagina da empresa OptimusTech, utilizando o padrão BEM para as classes, variaveis css e unidades de medida relativa.
 
 Para visualizar o projeto [clique aqui](https://kalebeccs-7-days-of-code.vercel.app/ "Projeto na Vercel").
