@@ -1,0 +1,125 @@
+.consultas {
+    padding: 0 1rem;
+    margin-bottom: 5rem;
+}
+
+.consultas__dia {
+    margin-bottom: 1rem;
+}
+
+.consulta__titulo {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 160%;
+    padding: .5rem 0;
+}
+
+.consulta__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.consulta-lista__card {
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    border-radius: .5rem;
+}
+
+.card__topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem .75rem 1rem;
+    border-bottom: 1px solid var(--borda);
+}
+
+.card__perfil {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card__img {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.card__nome {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+}
+
+.card__consulta {
+    display: flex;
+    gap: .5rem;
+}
+
+.card-consulta__tipo {
+    color: var(--cinza);
+    font-size: .75rem;
+}
+
+.card__msg {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-image: url('../img/chat.svg');
+    background-color: var(--cinza-claro);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card__baixo {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: .5rem 1rem 1rem 1rem;
+}
+
+.card__horario {
+    color: var(--cinza-escuro);
+    font-weight: 500;
+    font-size: .75rem;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-botao__video {
+    background-color: var(--laranja);
+    box-shadow: 0px 4px 16px var(--laranja-opaco);
+    color: var(--branco);
+    font-weight: 500;
+    text-align: center;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    text-decoration: none;
+}
+
+.card-botao__audio {
+    color: var(--cinza-escuro);
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid var(--borda);
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    text-decoration: none;
+}
+
+.card-botao__endereco {
+    background-color: var(--azul);
+    box-shadow: 0px 4px 16px var(--azul-opaco);
+    color: var(--branco);
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    text-decoration: none;
+}

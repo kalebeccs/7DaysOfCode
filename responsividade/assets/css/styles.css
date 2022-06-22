@@ -1,0 +1,28 @@
+@import url('./cabecalho.css');
+@import url('./perfil.css');
+@import url('./consultas.css');
+@import url('./rodape.css');
+
+:root {
+    --fundo: 165.96deg, #F8F4FF 0%, #EFF0F4 100%;
+    --preto: #333333;
+    --preto-opaco: rgba(0, 0, 0, 0.06);
+    --cinza-escuro: #464646;
+    --cinza: #A3A3A3;
+    --cinza-claro: #F6F6F6;
+    --branco: #FFFFFF;
+    --azul: #4894FF;
+    --azul-opaco: rgba(72, 148, 255, 0.16);
+    --laranja: #FFB050;
+    --laranja-opaco: rgba(255, 176, 80, 0.16);
+    --borda: #ECECEC;
+}
+
+body {
+    background: linear-gradient(var(--fundo));
+    color: var(--preto);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+}

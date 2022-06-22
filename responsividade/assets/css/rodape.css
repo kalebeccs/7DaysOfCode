@@ -1,0 +1,137 @@
+.rodape {
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    padding: .5rem 1rem;
+    background-color: var(--branco);
+    box-shadow: 0px -4px 8px var(--preto-opaco);
+    border-radius: .75rem .75rem 0 0;
+}
+
+.rodape__input {
+    display: none;
+}
+
+.rodape__botao {
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: var(--azul);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 16px rgba(72, 148, 255, 0.5));
+}
+
+.rodape__botao--mais {
+    position: absolute;
+    right: 1rem;
+    bottom: 5rem;
+    background-image: url('../img/mais.svg');
+}
+
+.rodape-lista__botoes {
+    display: none;
+    position: absolute;
+    bottom: 9.5rem;
+    right: 1rem;
+}
+
+.rodape__input:checked ~  .rodape-lista__botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+
+    width: 100%;
+}
+
+.rodape-item__botoes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rodape__botao--pin {
+    order: 2;
+    background-image: url('../img/pinfabiconee.svg');
+}
+
+.rodape__botao--camera {
+    order: 2;
+    background-image: url('../img/camerafab.svg');
+}
+
+.rodape-botao__texto {
+    order: 1;
+    font-weight: 500;
+    font-size: .75rem;
+    background-color: var(--branco);
+    border-radius: 1rem;
+    padding: .125rem .5rem;
+}
+
+.rodape__fundo {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.rodape__input:checked ~ .rodape__fundo{
+    display: block;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape__item {
+    opacity: 0.3;
+}
+
+.rodape__item--ativo {
+    opacity: 1;
+}
+
+.rodape__item--ativo .rodape__link {
+    color: var(--azul);
+}
+
+.rodape__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rodape__link {
+    color: var(--cinza-escuro);
+    font-size: .75rem;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-icon__consulta {
+    background-image: url('../img/calendario.svg');
+}
+
+.rodape-icon__cliente {
+    background-image: url('../img/clientes.svg');
+}
+
+.rodape-icon__relatorio {
+    background-image: url('../img/relatorios.svg');
+}
+
+.rodape-icon__menu {
+    background-image: url('../img/menu.svg');
+}

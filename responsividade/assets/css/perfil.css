@@ -1,0 +1,23 @@
+.perfil {
+    display: flex;
+    align-items: center;
+    padding: 2rem 1rem;
+    gap: 1rem;
+}
+
+.perfil__img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
+
+.perfil__nome {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 160%;
+}
+
+.perfil__consultas {
+    color: var(--cinza);
+}

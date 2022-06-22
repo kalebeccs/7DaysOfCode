@@ -1,7 +1,7 @@
-# 7DaysOfCode | HTML e CSS
+# 7DaysOfCode
 
-Pagina da empresa OptimusTech, utilizando o padrão BEM para as classes, variaveis css e unidades de medida relativa.
+Aqui você irá encontrar minha implementação dos desafios oferecidos pela [alura](https://www.alura.com.br/ "alura") atravez do [7DaysOfCode](https://7daysofcode.io/ "7DaysOfCode").
 
-Para visualizar o projeto [clique aqui](https://kalebeccs-7-days-of-code.vercel.app/ "Projeto na Vercel").
+Para visualizar minha versão da pagina web proposta no desafio HTML-CSS [clique aqui](https://kalebeccs-7-days-of-code.vercel.app/html-css/index.html "Projeto na Vercel").
 
- Para visualizar o prototipo [clique aqui](https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A1 "Prototipo no Figma").
+Para visualizar minha versão da pagina web proposta no desafio Responsividade [clique aqui](https://kalebeccs-7-days-of-code.vercel.app/responsividade/index.html "Projeto na Vercel").

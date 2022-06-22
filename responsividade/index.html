@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluramed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <span class="cabecalho__horario">03:33</span>
+        <div class="cabecalho__info">
+            <img class="cabecalho__icon" src="./assets/img/signal_cellular_4_bar.svg" alt="">
+            <img class="cabecalho__icon" src="./assets/img/battery_full.svg" alt="">
+            <img class="cabecalho__icon" src="./assets/img/wifi.svg" alt="">
+        </div>
+    </header>
+    <main>
+        <section class="perfil">
+            <img class="perfil__img" src="./assets/img/perfil-1.jpg" alt="">
+            <div class="perfil__texto">
+                <h1 class="perfil__nome">Olá, Sônia</h1>
+                <p class="perfil__consultas">Mais 4 consultas hoje</p>
+            </div>
+        </section>
+        <section class="consultas">
+            <div class="consultas__dia">
+                <h2 class="consulta__titulo">Hoje</h2>
+                <div class="consulta__lista">
+                    <card class="consulta-lista__card">
+                        <div class="card__topo">
+                            <div class="card__perfil">
+                                <img class="card__img" src="./assets/img/perfil-2.jpg" alt="">
+                                <div class="card__texto">
+                                    <h3 class="card__nome">Luciana Dias</h3>
+                                    <div class="card__consulta">
+                                        <img class="card-consulta__icon" src="./assets/img/Camera.svg" alt="">
+                                        <p class="card-consulta__tipo">Consulta remota</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="card__msg" href="#"></a>
+                        </div>
+                        <div class="card__baixo">
+                            <p class="card__horario">14:00 - 15:00 (1 hora)</p>
+                            <div class="card__botoes">
+                                <a href="#" class="card-botao__video">Ligar por vídeo</a>
+                                <a href="#" class="card-botao__audio">Ligar por áudio</a>
+                            </div>
+                        </div>
+                    </card>
+                    <card class="consulta-lista__card">
+                        <div class="card__topo">
+                            <div class="card__perfil">
+                                <img class="card__img" src="./assets/img/perfil-3.jpg" alt="">
+                                <div class="card__texto">
+                                    <h3 class="card__nome">Larissa Santana</h3>
+                                    <div class="card__consulta">
+                                        <img class="card-consulta__icon" src="./assets/img/pin.svg" alt="">
+                                        <p class="card-consulta__tipo">Consulta no local</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="card__msg" href="#"></a>
+                        </div>
+                        <div class="card__baixo">
+                            <p class="card__horario">16:00 - 17:00 (1 hora)</p>
+                            <div class="card__botoes">
+                                <a href="#" class="card-botao__endereco">Ver endereço</a>
+                            </div>
+                        </div>
+                    </card>
+                    <card class="consulta-lista__card">
+                        <div class="card__topo">
+                            <div class="card__perfil">
+                                <img class="card__img" src="./assets/img/perfil-4.jpg" alt="">
+                                <div class="card__texto">
+                                    <h3 class="card__nome">Marcos Correia</h3>
+                                    <div class="card__consulta">
+                                        <img class="card-consulta__icon" src="./assets/img/Camera.svg" alt="">
+                                        <p class="card-consulta__tipo">Consulta remota</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="card__msg" href="#"></a>
+                        </div>
+                        <div class="card__baixo">
+                            <p class="card__horario">17:20 - 18:00 (40 minutos)</p>
+                            <div class="card__botoes">
+                                <a href="#" class="card-botao__video">Ligar por vídeo</a>
+                                <a href="#" class="card-botao__audio">Ligar por áudio</a>
+                            </div>
+                        </div>
+                    </card>
+                </div>
+            </div>
+            <div class="consultas__dia">
+                <h2 class="consulta__titulo">Amanhã</h2>
+                <div class="consulta__lista">
+                    <card class="consulta-lista__card">
+                        <div class="card__topo">
+                            <div class="card__perfil">
+                                <img class="card__img" src="./assets/img/perfil-5.jpg" alt="">
+                                <div class="card__texto">
+                                    <h3 class="card__nome">Clara Lemos</h3>
+                                    <div class="card__consulta">
+                                        <img class="card-consulta__icon" src="./assets/img/pin.svg" alt="">
+                                        <p class="card-consulta__tipo">Consulta no local</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="card__msg" href="#"></a>
+                        </div>
+                        <div class="card__baixo">
+                            <p class="card__horario">18:00 - 19:00 (1 hora)</p>
+                            <div class="card__botoes">
+                                <a href="#" class="card-botao__endereco">Ver endereço</a>
+                            </div>
+                        </div>
+                    </card>
+                    <card class="consulta-lista__card">
+                        <div class="card__topo">
+                            <div class="card__perfil">
+                                <img class="card__img" src="./assets/img/perfil-2.jpg" alt="">
+                                <div class="card__texto">
+                                    <h3 class="card__nome">Luciana Dias</h3>
+                                    <div class="card__consulta">
+                                        <img class="card-consulta__icon" src="./assets/img/Camera.svg" alt="">
+                                        <p class="card-consulta__tipo">Consulta remota</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="card__msg" href="#"></a>
+                        </div>
+                        <div class="card__baixo">
+                            <p class="card__horario">14:00 - 15:00 (1 hora)</p>
+                            <div class="card__botoes">
+                                <a href="#" class="card-botao__video">Ligar por vídeo</a>
+                                <a href="#" class="card-botao__audio">Ligar por áudio</a>
+                            </div>
+                        </div>
+                    </card>
+                    <card class="consulta-lista__card">
+                        <div class="card__topo">
+                            <div class="card__perfil">
+                                <img class="card__img" src="./assets/img/perfil-4.jpg" alt="">
+                                <div class="card__texto">
+                                    <h3 class="card__nome">Marcos Correia</h3>
+                                    <div class="card__consulta">
+                                        <img class="card-consulta__icon" src="./assets/img/Camera.svg" alt="">
+                                        <p class="card-consulta__tipo">Consulta remota</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="card__msg" href="#"></a>
+                        </div>
+                        <div class="card__baixo">
+                            <p class="card__horario">17:20 - 18:00 (40 minutos)</p>
+                            <div class="card__botoes">
+                                <a href="#" class="card-botao__video">Ligar por vídeo</a>
+                                <a href="#" class="card-botao__audio">Ligar por áudio</a>
+                            </div>
+                        </div>
+                    </card>
+                    <card class="consulta-lista__card">
+                        <div class="card__topo">
+                            <div class="card__perfil">
+                                <img class="card__img" src="./assets/img/perfil-3.jpg" alt="">
+                                <div class="card__texto">
+                                    <h3 class="card__nome">Larissa Santana</h3>
+                                    <div class="card__consulta">
+                                        <img class="card-consulta__icon" src="./assets/img/pin.svg" alt="">
+                                        <p class="card-consulta__tipo">Consulta no local</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="card__msg" href="#"></a>
+                        </div>
+                        <div class="card__baixo">
+                            <p class="card__horario">16:00 - 17:00 (1 hora)</p>
+                            <div class="card__botoes">
+                                <a href="#" class="card-botao__endereco">Ver endereço</a>
+                            </div>
+                        </div>
+                    </card>
+                </div>
+            </div>
+            <div class="consultas__dia">
+                <h2 class="consulta__titulo">Quarta-feira</h2>
+                <div class="consulta__lista">
+                    <card class="consulta-lista__card">
+                        <div class="card__topo">
+                            <div class="card__perfil">
+                                <img class="card__img" src="./assets/img/perfil-5.jpg" alt="">
+                                <div class="card__texto">
+                                    <h3 class="card__nome">Clara Lemos</h3>
+                                    <div class="card__consulta">
+                                        <img class="card-consulta__icon" src="./assets/img/pin.svg" alt="">
+                                        <p class="card-consulta__tipo">Consulta no local</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="card__msg" href="#"></a>
+                        </div>
+                        <div class="card__baixo">
+                            <p class="card__horario">18:00 - 19:00 (1 hora)</p>
+                            <div class="card__botoes">
+                                <a href="#" class="card-botao__endereco">Ver endereço</a>
+                            </div>
+                        </div>
+                    </card>
+                    <card class="consulta-lista__card">
+                        <div class="card__topo">
+                            <div class="card__perfil">
+                                <img class="card__img" src="./assets/img/perfil-2.jpg" alt="">
+                                <div class="card__texto">
+                                    <h3 class="card__nome">Luciana Dias</h3>
+                                    <div class="card__consulta">
+                                        <img class="card-consulta__icon" src="./assets/img/Camera.svg" alt="">
+                                        <p class="card-consulta__tipo">Consulta remota</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="card__msg" href="#"></a>
+                        </div>
+                        <div class="card__baixo">
+                            <p class="card__horario">14:00 - 15:00 (1 hora)</p>
+                            <div class="card__botoes">
+                                <a href="#" class="card-botao__video">Ligar por vídeo</a>
+                                <a href="#" class="card-botao__audio">Ligar por áudio</a>
+                            </div>
+                        </div>
+                    </card>
+                    <card class="consulta-lista__card">
+                        <div class="card__topo">
+                            <div class="card__perfil">
+                                <img class="card__img" src="./assets/img/perfil-4.jpg" alt="">
+                                <div class="card__texto">
+                                    <h3 class="card__nome">Marcos Correia</h3>
+                                    <div class="card__consulta">
+                                        <img class="card-consulta__icon" src="./assets/img/Camera.svg" alt="">
+                                        <p class="card-consulta__tipo">Consulta remota</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="card__msg" href="#"></a>
+                        </div>
+                        <div class="card__baixo">
+                            <p class="card__horario">17:20 - 18:00 (40 minutos)</p>
+                            <div class="card__botoes">
+                                <a href="#" class="card-botao__video">Ligar por vídeo</a>
+                                <a href="#" class="card-botao__audio">Ligar por áudio</a>
+                            </div>
+                        </div>
+                    </card>
+                    <card class="consulta-lista__card">
+                        <div class="card__topo">
+                            <div class="card__perfil">
+                                <img class="card__img" src="./assets/img/perfil-3.jpg" alt="">
+                                <div class="card__texto">
+                                    <h3 class="card__nome">Larissa Santana</h3>
+                                    <div class="card__consulta">
+                                        <img class="card-consulta__icon" src="./assets/img/pin.svg" alt="">
+                                        <p class="card-consulta__tipo">Consulta no local</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="card__msg" href="#"></a>
+                        </div>
+                        <div class="card__baixo">
+                            <p class="card__horario">16:00 - 17:00 (1 hora)</p>
+                            <div class="card__botoes">
+                                <a href="#" class="card-botao__endereco">Ver endereço</a>
+                            </div>
+                        </div>
+                    </card>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <input class="rodape__input" id="rodape-cb" type="checkbox">
+        <label class="rodape__label" for="rodape-cb">
+            <span class="rodape__botao rodape__botao--mais"></span>
+        </label>
+        <ul class="rodape-lista__botoes">
+            <li class="rodape-item__botoes">
+                <a class="rodape__botao rodape__botao--pin" href="#"></a>
+                <span class="rodape-botao__texto">Nova consulta na casa do paciente</span>
+            </li>
+            <li class="rodape-item__botoes">
+                <a class="rodape__botao rodape__botao--camera" href="#"></a>
+                <span class="rodape-botao__texto">Nova consulta por vídeo</span>
+            </li>
+        </ul>
+        <span class="rodape__fundo"></span>
+        <ul class="rodape__lista">
+            <li class="rodape__item rodape__item--ativo">
+                <a class="rodape__link" href="#">
+                    <span class="rodape__icon rodape-icon__consulta"></span>
+                    Consultas
+                </a>
+            </li>
+            <li class="rodape__item">
+                <a class="rodape__link" href="#">
+                    <span class="rodape__icon rodape-icon__cliente"></span>
+                    Clientes
+                </a>
+            </li>
+            <li class="rodape__item">
+                <a class="rodape__link" href="#">
+                    <span class="rodape__icon rodape-icon__relatorio"></span>
+                    Relatórios
+                </a>
+            </li>
+            <li class="rodape__item">
+                <a class="rodape__link" href="#">
+                    <span class="rodape__icon rodape-icon__menu"></span>
+                    Menu
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
