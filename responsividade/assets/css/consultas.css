@@ -3,8 +3,22 @@
     margin-bottom: 5rem;
 }
 
+.consulta__lista {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 1rem;
+}
+
 .consultas__dia {
-    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.consultas__dia > * {
+    flex: 1 100%;
 }
 
 .consulta__titulo {
@@ -12,13 +26,6 @@
     font-weight: 700;
     font-size: 1rem;
     line-height: 160%;
-    padding: .5rem 0;
-}
-
-.consulta__lista {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
 }
 
 .consulta-lista__card {
@@ -26,6 +33,7 @@
     display: flex;
     flex-direction: column;
     border-radius: .5rem;
+    max-width: 330px;
 }
 
 .card__topo {
@@ -73,6 +81,10 @@
     background-repeat: no-repeat;
 }
 
+.card__msg:hover {
+    background-color: var(--cinza-hover);
+}
+
 .card__baixo {
     display: flex;
     flex-direction: column;
@@ -89,6 +101,7 @@
 .card__botoes {
     display: flex;
     justify-content: space-around;
+    gap: 1rem;
 }
 
 .card-botao__video {
@@ -102,6 +115,10 @@
     text-decoration: none;
 }
 
+.card-botao__video:hover {
+    background-color: var(--laranja-hover);
+}
+
 .card-botao__audio {
     color: var(--cinza-escuro);
     font-weight: 500;
@@ -112,14 +129,40 @@
     text-decoration: none;
 }
 
+.card-botao__audio:hover {
+    border: 1px solid var(--preto);
+}
+
 .card-botao__endereco {
     background-color: var(--azul);
     box-shadow: 0px 4px 16px var(--azul-opaco);
     color: var(--branco);
     font-weight: 500;
     text-align: center;
-    width: 100%;
+    width: 80%;
     padding: .75rem 1rem;
     border-radius: .5rem;
     text-decoration: none;
+}
+
+.card-botao__endereco:hover {
+    background-color: var(--azul-hover);
+}
+
+@media screen and (min-width: 768px) {
+    .consultas {
+        padding: 0 2rem;
+    }
+    .consultas__dia {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .consultas {
+        padding: 0 4rem;
+    }
 }

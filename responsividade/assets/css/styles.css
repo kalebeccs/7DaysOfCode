@@ -1,4 +1,3 @@
-@import url('./cabecalho.css');
 @import url('./perfil.css');
 @import url('./consultas.css');
 @import url('./rodape.css');
@@ -10,10 +9,14 @@
     --cinza-escuro: #464646;
     --cinza: #A3A3A3;
     --cinza-claro: #F6F6F6;
+    --cinza-hover: #e4e4e4;
     --branco: #FFFFFF;
     --azul: #4894FF;
+    --azul-hover: #4185e4;
+    --azul-escuro: #224679;
     --azul-opaco: rgba(72, 148, 255, 0.16);
     --laranja: #FFB050;
+    --laranja-hover: #d19143;
     --laranja-opaco: rgba(255, 176, 80, 0.16);
     --borda: #ECECEC;
 }
@@ -25,4 +28,5 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 160%;
+    min-height: 100vh;
 }
