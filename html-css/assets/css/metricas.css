@@ -25,3 +25,27 @@
     font-size: 1.125rem;
     line-height: 1.75rem;
 }
+
+@media screen and (max-width: 768px) {
+    .metricas {
+        margin: 0 1rem 4rem 1rem;
+    }
+    
+    .metrica__item {
+        width: 100%;
+    }
+
+    .metrica__titulo {
+        text-align: center;
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .metrica__subtitulo {
+        text-align: center;
+    }
+
+    .metrica__texto {
+        text-align: center;
+    }
+}

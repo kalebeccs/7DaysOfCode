@@ -27,19 +27,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.perfil__img {
-    margin-bottom: 1rem;
+    gap: .5rem;
 }
 
 .perfil__nome {
     color: var(--titulo);
     font-weight: 500;
-    margin-bottom: .5rem;
 }
 
 .perfil__cargo {
     font-size: .875rem;
     line-height: 1.25rem;
+}
+
+@media screen and (max-width: 768px) {
+    .depoimento {
+        margin: 0 1rem 2rem 1rem;
+        padding: 2rem;
+    }
+
+    .depoimento__titulo {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+
+    .depoimento__texto {
+        font-size: 1.5rem;
+    line-height: 2rem;
+    }
 }

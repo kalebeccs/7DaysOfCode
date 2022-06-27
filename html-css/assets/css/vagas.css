@@ -32,3 +32,30 @@
     width: 90%;
     margin: 2rem 0;
 }
+
+@media screen and (max-width: 768px) {
+    .vagas {
+        margin: 0 1rem 4rem 1rem;
+        gap: 1rem;
+    }
+
+    .vagas__titulo {
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+
+    .vagas__subtitulo {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .vagas__texto {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    .vagas__img {
+        width: 100vW;
+        margin: 1rem 0;
+    }
+}

@@ -9,7 +9,16 @@
 .navbar__logotipo {
     display: flex;
     align-items: center;
+}
+
+.navbar-logotipo__itens {
+    display: flex;
+    align-items: center;
     gap: .5rem;
+}
+
+.navbar__botao {
+    display: none;
 }
 
 .navbar__titulo {
@@ -64,9 +73,66 @@
     transition-duration: .5s;
 }
 
+.navbar-botao__input {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .navbar {
-    flex-direction: column;
-    gap: 1rem;
+        flex-direction: column;
+        padding: 1.125rem 1rem;
+        margin: 0 1rem;
+        gap: 2rem;
+    }
+
+    .navbar__logotipo {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar__botao {
+        display: block;
+        font-family: 'icones';
+    }
+
+    .navbar__botao i::before {
+        content: "\e904";
+        color: var(--cinza-logo);
+        font-size: 1.875rem;
+    }
+
+    .navbar__titulo {
+        font-size: 24px;
+    }
+
+    .navbar__menu {
+        display: none;
+        text-align: center;
+    }
+
+    .navbar__lista {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .navbar-lista__link {
+        font-size: 1.25rem;
+    }
+
+    .navbar__login {
+        display: none;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar__entrar {
+        border: 1px solid var(--texto);
+        border-radius: .5rem;
+    }
+
+    .navbar-botao__input:checked ~ .navbar__menu,
+    .navbar-botao__input:checked ~ .navbar__login {
+        display: flex;
     }
 }

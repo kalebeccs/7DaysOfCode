@@ -25,3 +25,26 @@
     line-height: 1.875rem;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        align-items: flex-start;
+        margin: 0 1rem;
+        padding: 2rem 0;
+        gap: 1rem;
+    }
+
+    .cabecalho__titulo {
+        font-size: 1.5rem;
+    }
+
+    .cabecalho__subtitulo {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .cabecalho__texto {
+        width: 100%;
+        text-align: left;
+    }
+}

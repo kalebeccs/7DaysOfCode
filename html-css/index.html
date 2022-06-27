@@ -15,9 +15,13 @@
 <body>
     <header class="navbar">
         <div class="navbar__logotipo">
-            <img class="navbar__img" src="./assets/img/logo.svg" alt="Logotipo OptimusTech">
-            <h1 class="navbar__titulo">OptimusTech</h1>
+            <div class="navbar-logotipo__itens">
+                <img class="navbar__img" src="./assets/img/logo.svg" alt="Logotipo OptimusTech">
+                <h1 class="navbar__titulo">OptimusTech</h1>
+            </div>
+            <label class="navbar__botao" for="navbarInput"><i></i></label>
         </div>
+        <input type="checkbox" name="" id="navbarInput" class="navbar-botao__input">
         <nav class="navbar__menu">
             <ul class="navbar__lista">
                 <li class="navbar-lista__item"><a href="#" class="navbar-lista__link">Home</a></li>
@@ -30,6 +34,7 @@
             <a href="#" class="navbar__entrar">Entrar</a>
             <a href="#" class="navbar__cadastrar">Cadastrar</a>
         </div>
+        
     </header>
     <main>
         <section class="cabecalho">

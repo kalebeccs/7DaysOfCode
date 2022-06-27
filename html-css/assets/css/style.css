@@ -6,6 +6,11 @@
 @import url('./depoimento.css');
 @import url('./rodape.css');
 
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
 :root {
     --cinza-logo: #3A404E;
     --vermelho: #8E2424;

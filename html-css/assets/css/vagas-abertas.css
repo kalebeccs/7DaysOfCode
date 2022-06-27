@@ -6,6 +6,7 @@
     margin: 0 auto;
     box-sizing: border-box;
     width: 80%;
+    gap: 1.5rem;
 }
 
 .design__titulo,
@@ -14,7 +15,7 @@
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 1.875rem;
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
 }
 
 .card {
@@ -23,7 +24,7 @@
     border: 1px solid var(--borda);
     border-radius: 1rem;
     padding: 24px 24px 28px;
-    margin-bottom: 1.5rem;
+    gap: 2rem;
 }
 
 .card__titulo {
@@ -31,7 +32,6 @@
     font-weight: 500;
     font-size: 1.125rem;
     line-height: 1.75rem;
-    margin-bottom: 2rem;
 }
 
 .card__info {
@@ -42,4 +42,16 @@
 .card__duracao,
 .card__salario {
     font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .vagas__design,
+    .vagas__desenvolvimento {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .card {
+        gap: 1rem;
+    }
 }
