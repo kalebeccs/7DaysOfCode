@@ -184,3 +184,30 @@
         right: 2rem;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        position: static;
+        bottom: auto;
+        width: auto;
+        padding: 2rem;
+        border-radius: 0 .75rem .75rem 0;
+    }
+    
+    .rodape__lista {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .rodape__link {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: .5rem;
+    }
+
+    .rodape__botao {
+        display: none;
+    }
+}
