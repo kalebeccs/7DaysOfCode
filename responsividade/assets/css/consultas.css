@@ -6,7 +6,6 @@
 .consulta__lista {
     display: flex;
     flex-direction: column;
-    
     gap: 1rem;
 }
 
@@ -61,24 +60,38 @@
     font-weight: 700;
 }
 
-.card__consulta {
-    display: flex;
-    gap: .5rem;
-}
-
 .card-consulta__tipo {
     color: var(--cinza);
     font-size: .75rem;
+}
+
+.card-consulta__tipo--remota::before {
+    content: '\e904  ';
+    font-family: 'icons';
+}
+
+.card-consulta__tipo--presencial::before {
+    content: '\e901  ';
+    font-family: 'icons';
 }
 
 .card__msg {
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
-    background-image: url('../img/chat.svg');
     background-color: var(--cinza-claro);
-    background-position: center;
-    background-repeat: no-repeat;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--azul);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card__msg::before {
+    content: '\e903';
+    font-family: 'icons';
 }
 
 .card__msg:hover {
@@ -164,5 +177,6 @@
 @media screen and (min-width: 1024px) {
     .consultas {
         padding: 0 4rem;
+        margin-bottom: 4rem;
     }
 }

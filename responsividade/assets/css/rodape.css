@@ -18,10 +18,14 @@
     height: 3.5rem;
     width: 3.5rem;
     background-color: var(--azul);
-    background-position: center;
-    background-repeat: no-repeat;
     border-radius: 50%;
     filter: drop-shadow(0px 4px 16px rgba(72, 148, 255, 0.5));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+    font-size: 1.5rem;
 }
 
 .rodape__botao:hover {
@@ -32,7 +36,31 @@
     position: absolute;
     right: 1rem;
     bottom: 5rem;
-    background-image: url('../img/mais.svg');
+}
+
+.rodape__botao--mais::before {
+    content: '\e907';
+    font-family: var(--font-icon);
+}
+
+.rodape__botao--pin {
+    order: 2;
+    text-decoration: none;
+}
+
+.rodape__botao--pin::before {
+    content: '\e901';
+    font-family: var(--font-icon);
+}
+
+.rodape__botao--camera {
+    order: 2;
+    text-decoration: none;
+}
+
+.rodape__botao--camera::before {
+    content: '\e904';
+    font-family: var(--font-icon);
 }
 
 .rodape-lista__botoes {
@@ -47,7 +75,6 @@
     flex-direction: column;
     align-items: flex-end;
     gap: 1rem;
-
     width: 100%;
 }
 
@@ -55,16 +82,6 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-}
-
-.rodape__botao--pin {
-    order: 2;
-    background-image: url('../img/pinfabiconee.svg');
-}
-
-.rodape__botao--camera {
-    order: 2;
-    background-image: url('../img/camerafab.svg');
 }
 
 .rodape-botao__texto {
@@ -101,7 +118,7 @@
 }
 
 .rodape__item:hover {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .rodape__item--ativo {
@@ -116,13 +133,6 @@
     color: var(--azul-escuro);
 }
 
-.rodape__icon {
-    width: 1.5rem;
-    height: 1.5rem;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .rodape__link {
     color: var(--cinza-escuro);
     font-size: .75rem;
@@ -133,20 +143,28 @@
     align-items: center;
 }
 
-.rodape-icon__consulta {
-    background-image: url('../img/calendario.svg');
+.rodape__link--consulta::before {
+    content: '\e900';
+    font-family: var(--font-icon);
+    font-size: 1.5rem;
 }
 
-.rodape-icon__cliente {
-    background-image: url('../img/clientes.svg');
+.rodape__link--cliente::before {
+    content: '\e905';
+    font-family: var(--font-icon);
+    font-size: 1.5rem;
 }
 
-.rodape-icon__relatorio {
-    background-image: url('../img/relatorios.svg');
+.rodape__link--relatorio::before {
+    content: '\e902';
+    font-family: var(--font-icon);
+    font-size: 1.5rem;
 }
 
-.rodape-icon__menu {
-    background-image: url('../img/menu.svg');
+.rodape__link--menu::before {
+    content: '\e906';
+    font-family: var(--font-icon);
+    font-size: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {

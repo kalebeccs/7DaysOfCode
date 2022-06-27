@@ -1,6 +1,12 @@
 @import url('./perfil.css');
 @import url('./consultas.css');
+@import url('./cadastro.css');
 @import url('./rodape.css');
+
+@font-face {
+    font-family: 'icons';
+    src: url(../font/icons.ttf);
+}
 
 :root {
     --fundo: 165.96deg, #F8F4FF 0%, #EFF0F4 100%;
@@ -12,13 +18,14 @@
     --cinza-hover: #e4e4e4;
     --branco: #FFFFFF;
     --azul: #4894FF;
-    --azul-hover: #4185e4;
+    --azul-hover: #4786F0;
     --azul-escuro: #224679;
     --azul-opaco: rgba(72, 148, 255, 0.16);
     --laranja: #FFB050;
     --laranja-hover: #d19143;
     --laranja-opaco: rgba(255, 176, 80, 0.16);
     --borda: #ECECEC;
+    --font-icon: 'icons';
 }
 
 body {
@@ -29,4 +36,16 @@ body {
     font-size: 14px;
     line-height: 160%;
     min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        flex-direction: row-reverse;
+    }
+    main {
+        width: 100%;
+    }
 }

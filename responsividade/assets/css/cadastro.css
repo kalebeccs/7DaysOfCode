@@ -1,0 +1,16 @@
+.cadastro {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .cadastro {
+        display: block;
+        padding: 0 4rem 4rem 4rem;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
