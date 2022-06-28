@@ -19,19 +19,26 @@
     --branco: #FFFFFF;
     --azul: #4894FF;
     --azul-hover: #4786F0;
+    --azul-active: #4373DC;
+    --azul-active-border: #57A4FF;
+    --azul-focus: #4062C9;
+    --azul-focus-border: #4894FF;
     --azul-escuro: #224679;
     --azul-opaco: rgba(72, 148, 255, 0.16);
+    --vermelho: #DE0000;
     --laranja: #FFB050;
     --laranja-hover: #d19143;
     --laranja-opaco: rgba(255, 176, 80, 0.16);
     --borda: #ECECEC;
+    --borda-hover: #CFCFCF;
+    --font-text: 'Montserrat', sans-serif;
     --font-icon: 'icons';
 }
 
 body {
     background: linear-gradient(var(--fundo));
     color: var(--preto);
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-text);
     font-weight: 400;
     font-size: 14px;
     line-height: 160%;

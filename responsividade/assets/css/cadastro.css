@@ -4,13 +4,99 @@
 
 @media screen and (min-width: 1024px) {
     .cadastro {
-        display: block;
-        padding: 0 4rem 4rem 4rem;
-    }
-
-    .formulario {
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        padding: 0 4rem 4rem 4rem;
+    }
+
+    .cadastro__titulo {
+        color: var(--cinza-escuro);
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 160%;
+    }
+
+    .cadastro__formulario {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .formulario__field {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario__input {
+        background-color: var(--branco);
+        border: 1px solid var(--borda);
+        border-radius: .5rem;
+        padding: 1rem;
+
+        color: var(--preto);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    .formulario__input::placeholder {
+        color: var(--cinza);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    .formulario__input:hover {
+        border-color: var(--borda-hover);
+    }
+
+    .formulario__input:focus {
+        outline: none;
+        border: 2px solid var(--azul);
+    }
+
+    .formulario__input--tipo::after {
+        background-color: var(--vermelho);
+    }
+
+    .formulario__input--tipo:focus .formulario__option:hover {
+        background-color: var(--cinza);
+    }
+    .formulario__option:active {
+        background-color: var(--cinza);
+    }
+
+    .formulario__botao {
+        cursor: pointer;
+        background-color: var(--azul);
+        border: none;
+        box-shadow: 0px 4px 16px var(--azul-opaco);
+        color: var(--branco);
+        font-family: var(--font-text);
+        font-weight: 500;
+        font-size: .875rem;
+        text-align: center;
+        padding: .75rem 1rem;
+        border-radius: .5rem;
+        text-decoration: none;
+        
+    }
+
+    .formulario__botao:hover {
+        background-color: var(--azul-hover);
+    }
+
+    .formulario__botao:active {
+        background-color: var(--azul-active);
+        border: 2px solid var(--azul-active-border);
+    }
+
+    .formulario__botao:focus {
+        outline: none;
+        background-color: var(--azul-focus);
+        border: 2px solid var(--azul-focus-border);
     }
 }

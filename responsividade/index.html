@@ -238,15 +238,32 @@
             </div>
         </section>
         <section class="cadastro">
-            <form class="formulario" action="">
-                <label for="nome">Nome do Paciente</label>
-                <input id="nome" type="text" placeholder="Digite o nome aqui...">
-                tipo de consulta
-                <input type="date" name="data" id="data">
-                horario da consulta
-                <label for="observacoes">Observações</label>
-                <textarea name="observacoes" id="observacoes" cols="30" rows="10" placeholder="Observações..."></textarea>
-                <button type="submit">Salvar</button>
+            <h2 class="cadastro__titulo">Adicionar nova consulta</h2>
+            <form class="cadastro__formulario" action="">
+                <fieldset class="formulario__field">
+                    <label for="nome">Nome do Paciente</label>
+                    <input class="formulario__input" id="nome" type="text" placeholder="Digite o nome aqui..." required>
+                </fieldset>
+                <fieldset class="formulario__field">
+                    <label for="tipo">Tipo de Consulta</label>
+                    <select class="formulario__input formulario__input--tipo" name="" id="tipo" required>
+                        <option class="formulario__option" value="local">Consulta no local</option>
+                        <option class="formulario__option" value="remoto">Consulta remota</option>
+                    </select>
+                </fieldset>
+                <fieldset class="formulario__field">
+                    <label for="data">Data da Consulta</label>
+                    <input class="formulario__input" type="date" name="data" id="data" required>
+                </fieldset>
+                <fieldset class="formulario__field">
+                    <label for="horario">Horario da Consulta</label>
+                    <input class="formulario__input" type="time" id="horario" required>
+                </fieldset>
+                <fieldset class="formulario__field">
+                    <label for="observacoes">Observações</label>
+                    <textarea class="formulario__input" name="observacoes" id="observacoes" cols="30" rows="10" placeholder="Observações..."></textarea>
+                </fieldset>
+                <button class="formulario__botao" type="submit">Salvar</button>
             </form>
         </section>
     </main>
