@@ -1,7 +1,5 @@
 # 7DaysOfCode | Responsividade
 
-🚧Em desenvolvimento🚧
-
 Pagina da empresa Aluramed, utilizando o padrão BEM para as classes, variaveis css, pseudo-elementos e unidades de medida relativa.
 
 Para visualizar o projeto [clique aqui](https://kalebeccs-7-days-of-code.vercel.app/responsividade/ "Projeto na Vercel").
