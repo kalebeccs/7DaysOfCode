@@ -1,0 +1,23 @@
+.formacao {
+    display: flex;
+    gap: .5rem;
+}
+
+.formacao__img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.formacao__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.formacao__instituicao {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.formacao__duracao {
+    color: var(--branco-opaco);
+}

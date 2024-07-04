@@ -1,0 +1,71 @@
+.empresa {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.empresa__info {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.empresa__img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.empresa-info__dados {
+    display: flex;
+    flex-direction: column;
+}
+
+.empresa__nome {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.empresa__tempo {
+    color: var(--branco-opaco);
+}
+
+.empresa__carreira {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.empresa__cargo {
+    display: flex;
+    gap: 1rem;
+}
+
+.empresa-cargo__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cargo-info__nome {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.cargo-info__duraocao,
+.cargo-info__local {
+    color: var(--branco-opaco);
+}
+
+.cargo__indicador {
+    display: flex;
+    flex-direction: column;
+}
+
+.cargo__indicador--bola {
+    font-size: 10px;
+}
+
+.cargo__indicador--reta {
+    flex-grow: 1;
+    border-left: 1px solid var(--branco-opaco);
+    transform: translateX(4px);
+}

@@ -1,0 +1,27 @@
+.destaques__lista {
+    display: flex;
+    gap: 1rem;
+}
+
+.destaque__tipo {
+    display: block;
+    color: var(--branco-opaco);
+    font-size: 12px;
+    padding: .5rem .75rem 0;
+}
+
+.destaque__titulo {
+    padding: 0 .75rem .25rem;
+}
+
+.destaque__img {
+    width: 100%;
+}
+
+.destaque__interacao {
+    display: flex;
+    justify-content: space-between;
+    color: var(--branco-opaco);
+    font-size: 12px;
+    padding: 0 .5rem .25rem;
+}

@@ -1,0 +1,19 @@
+.idiomas__lista {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.idiomas__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.idioma__nome {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.idioma__status {
+    color: var(--branco-opaco);
+}

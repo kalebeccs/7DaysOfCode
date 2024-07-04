@@ -1,0 +1,59 @@
+@import url(./card.css);
+
+@import url(./navbar.css);
+@import url(./info-perfil.css);
+@import url(./destaques.css);
+@import url(./atividades.css);
+@import url(./sobre.css);
+@import url(./experiencias.css);
+@import url(./formacao.css);
+@import url(./idiomas.css);
+@import url(./lateral.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --preto: #000000;
+    --preto-opaco: rgba(0,0,0,0.75);
+    --branco: rgba(255,255,255,0.9);
+    --branco-opaco: rgba(255,255,255,0.6);    
+    --azul-claro: #70B5F9;
+    --fundo-card: #1B2226;
+    --input: #38434F;
+    --font-roboto: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.conteudo {
+    display: flex;
+    padding: 1.5rem 9.5rem;
+    gap: 1rem;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.lateral {
+    min-width: 346px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

@@ -1,0 +1,17 @@
+.card {
+    background-color: var(--fundo-card);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.card__titulo {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: .5rem;
+}
+
+.card--destaque {
+    border-radius: .5rem;
+    border: 1px solid var(--branco-opaco);
+}
