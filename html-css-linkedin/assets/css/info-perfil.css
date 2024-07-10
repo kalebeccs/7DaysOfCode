@@ -3,6 +3,7 @@
 }
 
 .perfil-fundo__label {
+    cursor: pointer;
     display: block;
     border-radius: 1rem 1rem 0 0;
     background-image: url(../img/image-card.png);
@@ -64,28 +65,45 @@
 .perfil__info-contato {
     color: var(--azul-claro);
     font-weight: 600;
-    text-decoration: none;
+}
+
+.perfil__info-contato:hover {
+    text-decoration: underline;
 }
 
 .perfil__seguidores,
 .perfil__conexoes {
     color: var(--azul-claro);
-    text-decoration: none;
+}
+
+.perfil__seguidores:hover,
+.perfil__conexoes:hover {
+    text-decoration: underline;
 }
 
 .pefil__botao {
     background-color: var(--azul-claro);
-    border: 1px solid var(--azul-claro);
+    border: 2px solid var(--azul-claro);
     color: var(--preto-opaco);
     border-radius: 1rem;
     padding: .25rem 1rem;
     font-weight: 500;
-    text-decoration: none;
+}
+
+.pefil__botao:hover {
+    background-color: var(--azul-claro-hover);
+    border-color: var(--azul-claro-hover);
 }
 
 .pefil__botao--transparente {
     background-color: transparent;
     color: var(--azul-claro);
+}
+
+.pefil__botao--transparente:hover {
+    background-color: transparent;
+    color: var(--azul-claro-hover);
+    border-color: var(--azul-claro-hover);
 }
 
 
@@ -95,12 +113,17 @@
     gap: .5rem;
 }
 
-.info-profissional__item {
+.info-profissional__link{
     display: flex;
     align-items: center;
     gap: .5rem;
-
+    color: var(--branco);
     font-weight: 600;
+}
+
+.info-profissional__link:hover{
+    text-decoration: underline;
+    color: var(--azul-claro);
 }
 
 .info-profissional__img {
