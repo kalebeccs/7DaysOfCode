@@ -25,3 +25,8 @@
     font-size: 12px;
     padding: 0 .5rem .25rem;
 }
+
+.destaque__reacao,
+.destaque__comentarios {
+    color: var(--branco-opaco);
+}
