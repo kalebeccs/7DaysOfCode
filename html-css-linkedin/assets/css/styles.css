@@ -56,6 +56,10 @@ img {
     height: auto;
 }
 
+input {
+    font-family: var(--font-roboto);
+}
+
 .container {
     max-width: 1120px;
     margin-inline: 1.5rem;
