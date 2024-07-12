@@ -5,11 +5,14 @@
 }
 
 .atividades__seguidores {
-    display: block;
+    display: inline-block;
     color: var(--azul-claro);
     font-weight: 500;
-    text-decoration: none;
     margin-bottom: .5rem;
+}
+
+.atividades__seguidores:hover {
+    text-decoration: underline;
 }
 
 .atividades__item {
@@ -37,6 +40,10 @@
 .atividade__interacao {
     display: flex;
     justify-content: space-between;
+}
+
+.atividade__reacao,
+.atividade__comentarios {
     color: var(--branco-opaco);
 }
 
@@ -46,4 +53,10 @@
     text-align: center;
     padding-top: .5rem;
     text-decoration: none;
+}
+
+.atividade__reacao:hover,
+.atividade__comentarios:hover,
+.atividades__todas:hover {
+    color: var(--branco);
 }
