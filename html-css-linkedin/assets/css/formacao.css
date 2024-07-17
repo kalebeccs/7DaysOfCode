@@ -14,8 +14,14 @@
 }
 
 .formacao__instituicao {
+    color: var(--branco);
     font-weight: 600;
     font-size: 16px;
+}
+
+.formacao__instituicao:hover {
+    color: var(--azul-claro);
+    text-decoration: underline;
 }
 
 .formacao__duracao {
