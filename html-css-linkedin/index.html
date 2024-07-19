@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    
     <title>Nome Usuario | Linkedin</title>
     <link rel="shortcut icon" href="./assets/img/icon/logo-linkedin.svg">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    <header class="navbar">
-        <div class="navbar-left">
-            <img class="navbar__logo" src="./assets/img/icon/logo-linkedin.svg" alt="Logo Linkedin">
-            <input class="navbar__search navbar__search--icon" type="text" placeholder="Pesquisar">
+    <header class="header">
+        <div class="header-left">
+            <a href="#">
+                <img class="navbar__logo" src="./assets/img/icon/logo-linkedin.svg" alt="Logo Linkedin">
+            </a>
+            <form class="header__form" action="">
+                <input class="form__input navbar__search navbar__search--icon" type="text" placeholder="Pesquisar">
+            </form>
         </div>
-        <nav class="navbar-right">
+        <nav class="navbar">
             <ul class="navbar__lista">
                 <li class="navbar__item">
                     <a href="" class="navbar__link">
@@ -56,7 +64,8 @@
             </ul>
         </nav>
     </header>
-    <main class="conteudo">
+
+    <main class="main">
         <div class="principal">
             <section class="card perfil">
                 <label class="perfil-fundo__label" for="perfil-fundo">
@@ -74,9 +83,9 @@
                             <a class="perfil__info-contato" href="#">informações de contato</a>
                         </div>
                         <div class="perfil__div">
-                            <a class="perfil__seguidores" href="#">??? seguidores</a>
+                            <a class="perfil__seguidores" href="#">96 seguidores</a>
                             <span class="perfil__ponto">·</span>
-                            <a class="perfil__conexoes" href="#">??? conexões</a>
+                            <a class="perfil__conexoes" href="#">54 conexões</a>
                         </div>
                         <div class="perfil__div">
                             <a class="pefil__botao" href="#">Mensagem</a>
@@ -84,15 +93,15 @@
                         </div>
                     </div>
                     <div class="perfil-info__profissional">
-                        <div class="info-profissional__item">
-                            <img class="info-profissional__img" src="./assets/img/Rectangle 12.png" alt="">
+                        <a class="info-profissional__link" href="#experiencia">
+                            <img class="info-profissional__img" src="./assets/img/Rectangle 12.png" alt="image">
                             Empresa
-                        </div>
-                        <div class="info-profissional__item">
-                            <img class="info-profissional__img" src="./assets/img/Rectangle 13.png" alt="">
+                        </a>
+                        <a class="info-profissional__link" href="#formacao">
+                            <img class="info-profissional__img" src="./assets/img/Rectangle 13.png" alt="image">
                             Instituição de ensino
-                        </div>
-                    </div>                
+                        </a>
+                    </div>
                 </div>
             </section>
             <section class="card destaques">
@@ -101,35 +110,50 @@
                     <div class="card--destaque">
                         <span class="destaque__tipo">Publicação</span>
                         <h3 class="destaque__titulo">Legenda da primeira publicação</h3>
-                        <img class="destaque__img" src="./assets/img/image-card.png" alt="">
+                        <img class="destaque__img destaque__img-1" src="./assets/img/image-card.png" alt="">
                         <div class="destaque__interacao">
-                            <span class="destaque__reacao">124</span>
-                            <span class="destaque__comentarios">5 comentários</span>
+                            <a class="destaque__reacao" href="#">
+                                <span class="destaque__user destaque__user-1"></span>
+                                <span class="destaque__user destaque__user-2"></span>
+                                <span class="destaque__user destaque__user-3"></span>
+                                348
+                            </a>
+                            <a class="destaque__comentarios" href="#">76 comentários</a>
                         </div>
                     </div>
                     <div class="card--destaque">
                         <span class="destaque__tipo">Publicação</span>
-                        <h3 class="destaque__titulo">Legenda da primeira publicação</h3>
-                        <img class="destaque__img" src="./assets/img/image-card.png" alt="">
+                        <h3 class="destaque__titulo">Legenda da segunda publicação</h3>
+                        <img class="destaque__img destaque__img-2" src="./assets/img/image-card.png" alt="">
                         <div class="destaque__interacao">
-                            <span class="destaque__reacao">124</span>
-                            <span class="destaque__comentarios">5 comentários</span>
+                            <a class="destaque__reacao" href="#">
+                                <span class="destaque__user destaque__user-1"></span>
+                                <span class="destaque__user destaque__user-2"></span>
+                                <span class="destaque__user destaque__user-3"></span>
+                                192
+                            </a>
+                            <a class="destaque__comentarios" href="#">34 comentários</a>
                         </div>
                     </div>
                     <div class="card--destaque">
                         <span class="destaque__tipo">Publicação</span>
-                        <h3 class="destaque__titulo">Legenda da primeira publicação</h3>
-                        <img class="destaque__img" src="./assets/img/image-card.png" alt="">
+                        <h3 class="destaque__titulo">Legenda da terceira publicação</h3>
+                        <img class="destaque__img destaque__img-3" src="./assets/img/image-card.png" alt="">
                         <div class="destaque__interacao">
-                            <span class="destaque__reacao">124</span>
-                            <span class="destaque__comentarios">5 comentários</span>
+                            <a class="destaque__reacao" href="#">
+                                <span class="destaque__user destaque__user-1"></span>
+                                <span class="destaque__user destaque__user-2"></span>
+                                <span class="destaque__user destaque__user-3"></span>
+                                126
+                            </a>
+                            <a class="destaque__comentarios" href="#">59 comentários</a>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="card atividades">
                 <h2 class="atividades__titulo">Atividades</h2>
-                <a class="atividades__seguidores" href="#">??? seguidores</a>
+                <a class="atividades__seguidores" href="#">96 seguidores</a>
                 <ul class="atividades__lista">
                     <li class="atividades__item">
                         <div class="atividade__info">
@@ -139,26 +163,42 @@
                         </div>
                         <div class="atividade__conteudo">
                             <img class="atividade__img" src="./assets/img/image-card.png" alt="">
-                            <p class="atividade__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...</p>
+                            <p class="atividade__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...</p>
                         </div>
                         <div class="atividade__interacao">
-                            <span class="atividade__reacao">124</span>
-                            <span class="atividade__comentarios">5 comentários</span>
+                            <a class="atividade__reacao" href="#">
+                                <span class="atividade__user atividade__user-1"></span>
+                                <span class="atividade__user atividade__user-2"></span>
+                                <span class="atividade__user atividade__user-3"></span>
+                                62
+                            </a>
+                            <a class="atividade__comentarios" href="#">13 comentários</a>
                         </div>
                     </li>
                     <li class="atividades__item">
                         <div class="atividade__info">
                             <span class="atividade__autor">Nome Sobrenome publicou isso</span>
                             ·
-                            <span class="atividade__tempo">1 sem</span>
+                            <span class="atividade__tempo">2 sem</span>
                         </div>
                         <div class="atividade__conteudo">
                             <img class="atividade__img" src="./assets/img/image-card.png" alt="">
-                            <p class="atividade__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...</p>
+                            <p class="atividade__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...</p>
                         </div>
                         <div class="atividade__interacao">
-                            <span class="atividade__reacao">124</span>
-                            <span class="atividade__comentarios">5 comentários</span>
+                            <a class="atividade__reacao" href="#">
+                                <span class="atividade__user atividade__user-1"></span>
+                                <span class="atividade__user atividade__user-2"></span>
+                                <span class="atividade__user atividade__user-3"></span>
+                                48
+                            </a>
+                            <a class="atividade__comentarios" href="#">21 comentários</a>
                         </div>
                     </li>
                 </ul>
@@ -166,15 +206,18 @@
             </section>
             <section class="card sobre">
                 <h2 class="card__titulo">Sobre</h2>
-                <p class="sobre__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                <p class="sobre__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
             </section>
-            <section class="card experiencias">
+            <section class="card experiencias" id="experiencia">
                 <h2 class="card__titulo">Experiências</h2>
                 <div class="empresa">
                     <div class="empresa__info">
                         <img class="empresa__img" src="./assets/img/Rectangle 12.png" alt="">
                         <div class="empresa-info__dados">
-                            <span class="empresa__nome">Empresa</span>
+                            <a class="empresa__nome" href="#">Empresa</a>
                             <span class="empresa__tempo">1 a 7 m</span>
                         </div>
                     </div>
@@ -219,12 +262,12 @@
                 </div>
 
             </section>
-            <section class="card formacaos">
+            <section class="card formacaos" id="formacao">
                 <h2 class="card__titulo">Formação acadêmica</h2>
                 <div class="formacao">
                     <img class="formacao__img" src="./assets/img/Rectangle 13.png" alt="">
                     <div class="formacao__info">
-                        <span class="formacao__instituicao">Instituição de ensino</span>
+                        <a class="formacao__instituicao" href="#">Instituição de ensino</a>
                         <span class="formacao__curso">Nome do curso</span>
                         <span class="formacao__duracao">2015 a 2019</span>
                     </div>
@@ -242,7 +285,7 @@
                         <span class="idioma__nome">Inglês</span>
                         <span class="idioma__status">Intermediário</span>
                     </li>
-                </ul> 
+                </ul>
             </section>
         </div>
         <aside class="lateral">
@@ -253,7 +296,8 @@
                         <img class="lateral__img" src="./assets/img/perfil-3.jpg" alt="">
                         <div class="lateral__conteudo">
                             <span class="lateral__nome">Nome e sobrenome</span>
-                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit
+                                Amet</span>
                             <a class="lateral__link" href="#">Enviar mensagem</a>
                         </div>
                     </li>
@@ -261,7 +305,8 @@
                         <img class="lateral__img" src="./assets/img/perfil-4.jpg" alt="">
                         <div class="lateral__conteudo">
                             <span class="lateral__nome">Nome e sobrenome</span>
-                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit
+                                Amet</span>
                             <a class="lateral__link" href="#">Enviar mensagem</a>
                         </div>
                     </li>
@@ -269,7 +314,8 @@
                         <img class="lateral__img" src="./assets/img/perfil-5.jpg" alt="">
                         <div class="lateral__conteudo">
                             <span class="lateral__nome">Nome e sobrenome</span>
-                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit
+                                Amet</span>
                             <a class="lateral__link" href="#">Enviar mensagem</a>
                         </div>
                     </li>
@@ -277,7 +323,8 @@
                         <img class="lateral__img" src="./assets/img/perfil-2.jpg" alt="">
                         <div class="lateral__conteudo">
                             <span class="lateral__nome">Nome e sobrenome</span>
-                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit
+                                Amet</span>
                             <a class="lateral__link" href="#">Enviar mensagem</a>
                         </div>
                     </li>
@@ -285,7 +332,8 @@
                         <img class="lateral__img" src="./assets/img/perfil-1.jpg" alt="">
                         <div class="lateral__conteudo">
                             <span class="lateral__nome">Nome e sobrenome</span>
-                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit
+                                Amet</span>
                             <a class="lateral__link" href="#">Enviar mensagem</a>
                         </div>
                     </li>
@@ -298,7 +346,8 @@
                         <img class="lateral__img" src="./assets/img/Rectangle 11.png" alt="">
                         <div class="lateral__conteudo">
                             <span class="lateral__nome">Nome e sobrenome</span>
-                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit
+                                Amet</span>
                             <a class="lateral__link" href="#">Conectar</a>
                         </div>
                     </li>
@@ -306,7 +355,8 @@
                         <img class="lateral__img" src="./assets/img/perfil-3.jpg" alt="">
                         <div class="lateral__conteudo">
                             <span class="lateral__nome">Nome e sobrenome</span>
-                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit
+                                Amet</span>
                             <a class="lateral__link" href="#">Conectar</a>
                         </div>
                     </li>
@@ -314,7 +364,8 @@
                         <img class="lateral__img" src="./assets/img/perfil-2.jpg" alt="">
                         <div class="lateral__conteudo">
                             <span class="lateral__nome">Nome e sobrenome</span>
-                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit
+                                Amet</span>
                             <a class="lateral__link" href="#">Conectar</a>
                         </div>
                     </li>
@@ -322,7 +373,8 @@
                         <img class="lateral__img" src="./assets/img/perfil-5.jpg" alt="">
                         <div class="lateral__conteudo">
                             <span class="lateral__nome">Nome e sobrenome</span>
-                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit
+                                Amet</span>
                             <a class="lateral__link" href="#">Conectar</a>
                         </div>
                     </li>
@@ -330,7 +382,8 @@
                         <img class="lateral__img" src="./assets/img/perfil-4.jpg" alt="">
                         <div class="lateral__conteudo">
                             <span class="lateral__nome">Nome e sobrenome</span>
-                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                            <span class="lateral__descricao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit
+                                Amet</span>
                             <a class="lateral__link" href="#">Conectar</a>
                         </div>
                     </li>
@@ -339,4 +392,5 @@
         </aside>
     </main>
 </body>
+
 </html>

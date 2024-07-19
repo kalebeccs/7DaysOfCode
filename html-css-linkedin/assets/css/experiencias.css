@@ -21,8 +21,14 @@
 }
 
 .empresa__nome {
+    color: var(--branco);
     font-weight: 600;
     font-size: 16px;
+}
+
+.empresa__nome:hover {
+    color: var(--azul-claro);
+    text-decoration: underline;
 }
 
 .empresa__tempo {
